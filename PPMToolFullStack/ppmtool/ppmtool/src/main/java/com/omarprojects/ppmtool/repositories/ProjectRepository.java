@@ -13,5 +13,7 @@ public interface ProjectRepository extends CrudRepository<Project, Long> {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	Project findByProjectIdentifier(String projectId);
 
 }
